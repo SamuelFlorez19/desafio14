@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>NODE</title>
+</head>
+<body>
+    
+    <form class="form" action="/api/clientes" method="POST">
+        <p class="title">Registro </p>
+        
+            <div class="flex">
+            <label>
+                <input class="input" type="text" placeholder="" required="" name="nombre">
+                <span>Nombre</span>
+            </label>
+
+            <label>
+                <input class="input" type="text" placeholder="" required="" name="apellido">
+                <span>Apellido</span>
+            </label>
+        </div>  
+
+        <label>
+            <input class="input" type="text" placeholder="" required="" name="direccion">
+            <span>Direccion</span>
+        </label>
+                
+        <label>
+            <input class="input" type="email" placeholder="" required="" name="email">
+            <span>Email</span>
+        </label> 
+            
+        <label>
+            <input class="input" type="password" placeholder="" required="" name="password">
+            <span>Contraseña</span>
+        </label>
+        
+        <button class="submit">Enviar</button>
+        <p class="signin">Already have an acount ? <a href="#">Signin</a> </p>
+    </form>
+
+</body>
+</html>
